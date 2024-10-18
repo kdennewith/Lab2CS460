@@ -46,11 +46,11 @@ public class MainActivity extends AppCompatActivity {
         videoItems.add(reFantazio);
 
         VideoItem league = new VideoItem();
-        league.vidURL = "https://firebasestorage.googleapis.com/v0/b/fir-case-d128a.appspot.com/o/Comforting%20Library.mp4?alt=media&token=bc414c9b-5a03-4bae-b141-dd89f8739315";
+        league.vidURL = "https://firebasestorage.googleapis.com/v0/b/fir-case-d128a.appspot.com/o/Wait%20for%20it.%20.%20..webm?alt=media&token=1725adfd-2000-475b-8642-7998293ff14d";
         league.vidTitle = "Wait for it. . .";
         league.vidDescription = "Just wait for it. . .";
 
-        videoItems.add(reFantazio);
+        videoItems.add(league);
 
         videoViewPager.setAdapter(new VideoAdapter(videoItems));
 
